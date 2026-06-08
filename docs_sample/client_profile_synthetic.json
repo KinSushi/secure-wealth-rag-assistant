@@ -1,0 +1,8 @@
+{
+  "profile_id": "SYNTH-CLIENT-001",
+  "risk_profile": "Balanced",
+  "investment_horizon_years": 7,
+  "base_currency": "CHF",
+  "synthetic": true,
+  "public_safety_note": "This is not a real client profile."
+}

@@ -1,0 +1,38 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="secure wealth rag assistant banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07111F"/>
+      <stop offset="0.55" stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#24143D"/>
+    </linearGradient>
+    <style>
+      .title{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:42px;font-weight:750;fill:#fff}
+      .sub{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:21px;fill:#D8E2F0}
+      .chip{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:14px;font-weight:650;fill:#fff}
+      .node{font-family:Inter,Segoe UI,Arial,sans-serif;font-size:13px;fill:#D8E2F0}
+    </style>
+  </defs>
+  <rect width="1280" height="320" rx="26" fill="url(#bg)"/>
+  <g opacity=".38">
+    <rect x="775" y="74" width="118" height="56" rx="12" fill="#0D419D" stroke="#58A6FF"/>
+    <text x="806" y="109" class="node">Docs</text>
+    <rect x="932" y="74" width="128" height="56" rx="12" fill="#0F2F24" stroke="#2EA043"/>
+    <text x="964" y="109" class="node">Retrieve</text>
+    <rect x="1100" y="74" width="128" height="56" rx="12" fill="#24143D" stroke="#A371F7"/>
+    <text x="1132" y="109" class="node">Answer</text>
+    <rect x="932" y="190" width="170" height="56" rx="12" fill="#24143D" stroke="#A371F7"/>
+    <text x="964" y="225" class="node">Governance</text>
+    <path d="M893 102 H932" stroke="#9FB3C8" stroke-width="3"/>
+    <path d="M1060 102 H1100" stroke="#9FB3C8" stroke-width="3"/>
+    <path d="M1164 130 C1164 176 1102 176 1102 218" stroke="#9FB3C8" stroke-width="3" fill="none"/>
+  </g>
+  <text x="74" y="104" class="title">secure-wealth-rag-assistant</text>
+  <text x="74" y="150" class="sub">Synthetic Docs · Local Retrieval · Privacy · Evaluation · Governance</text>
+  <text x="74" y="188" class="sub">LLMOps evidence for sensitive-document workflows</text>
+  <rect x="74" y="232" width="98" height="36" rx="18" fill="#0D419D"/>
+  <text x="106" y="255" class="chip">RAG</text>
+  <rect x="188" y="232" width="118" height="36" rx="18" fill="#1A7F37"/>
+  <text x="216" y="255" class="chip">Privacy</text>
+  <rect x="322" y="232" width="142" height="36" rx="18" fill="#6E40C9"/>
+  <text x="350" y="255" class="chip">Evaluation</text>
+</svg>
