@@ -1,4 +1,4 @@
-# secure-wealth-rag-assistant
+﻿# secure-wealth-rag-assistant
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 
 **Secure RAG / LLMOps starter for sensitive-document workflows using synthetic documents only**
 
-RAG · Local Retrieval · Evaluation · Privacy Controls · Prompt-Injection Tests · Human Review · AI Governance
+RAG Â· Local Retrieval Â· Evaluation Â· Privacy Controls Â· Prompt-Injection Tests Â· Human Review Â· AI Governance
 
 ![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white)
 ![RAG](https://img.shields.io/badge/RAG-Document%20Retrieval-6F42C1?style=flat)
@@ -104,3 +104,15 @@ make evaluate
 ## Non-goals
 
 This project is not a production RAG platform, not a financial adviser, not a medical adviser, not a legal adviser, and not an application dossier.
+---
+
+## Portfolio layer
+
+This repository is part of the KinSushi public technical portfolio.
+
+| Layer | Evidence |
+|---|---|
+| LLMOps / RAG | synthetic documents, retrieval evaluation, prompt-injection tests, privacy controls |
+
+Detailed cross-repository context: [docs/PORTFOLIO_LAYER.md](docs/PORTFOLIO_LAYER.md)
+
