@@ -1,10 +1,6 @@
-# Screenshots
+# Screenshots and content previews
 
-Add after local execution:
+Generated from real repository validation commands in GitHub Actions.
 
-1. CLI RAG demo.
-2. Retrieval evaluation JSON.
-3. Prompt-injection tests passing.
-4. CI passing.
-
-Screenshots must not contain private data, real documents, secrets or employer-specific material.
+- [validation-preview.svg](screenshots/validation-preview.svg)
+- [validation-output.html](screenshots/validation-output.html)
