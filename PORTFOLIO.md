@@ -6,6 +6,18 @@ Secure RAG / LLMOps portfolio project using synthetic documents to demonstrate r
 
 ---
 
+## Recruiter-readable positioning
+
+This project is public technical evidence for LLMOps, RAG, AI Engineering, Data Quality and regulated-data / governance roles.
+
+It demonstrates the ability to build and operate a small but complete secure-RAG evaluation loop:
+
+```text
+synthetic docs -> chunking -> local index -> retrieval -> grounded answer -> evaluation -> privacy / injection tests -> governance docs
+```
+
+---
+
 ## What this repo proves
 
 | Evidence | Technical signal |
@@ -30,6 +42,16 @@ Secure RAG / LLMOps portfolio project using synthetic documents to demonstrate r
 | Pharma / medtech | regulatory and clinical-document handling principles |
 | Consulting / integration | RAG architecture and client-safe delivery patterns |
 | Big tech / AI platforms | evaluation, guardrails and reproducibility |
+
+---
+
+## What this repo is not
+
+- Not a production RAG platform.
+- Not a financial adviser.
+- Not a medical adviser.
+- Not a legal adviser.
+- Not an application dossier.
 
 ---
 
