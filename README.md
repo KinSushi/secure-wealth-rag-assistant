@@ -205,9 +205,9 @@ Reproduce locally with the Quickstart commands. All documents are **synthetic**;
 
 | Role family | Why this project helps |
 |---|---|
-| Junior AI Engineer | retrieval, grounded outputs and evaluation |
-| LLMOps Engineer Junior | prompt-injection tests, privacy controls and governance docs |
-| AI Platform Engineer Junior | safe workflow design and public technical evidence |
+| AI Engineer | retrieval, grounded outputs and evaluation |
+| LLMOps Engineer | prompt-injection tests, privacy controls and governance docs |
+| AI Platform Engineer | safe workflow design and public technical evidence |
 | Risk / Compliance Analytics | sensitive-document workflow boundaries and human review |
 | Big-tech AI/data systems | testable retrieval, no external dependency, reproducible evaluation |
 
@@ -217,16 +217,16 @@ Reproduce locally with the Quickstart commands. All documents are **synthetic**;
 
 ```mermaid
 flowchart LR
-    A[Synthetic documents] --> B[Document loader]
-    B --> C[Chunking]
-    C --> D[Local TF-IDF index]
-    E[User question] --> F[Retrieval]
-    D --> F
-    F --> G[Grounded answer builder]
-    G --> H[Citations]
-    G --> I[Evaluation]
-    G --> J[Guardrails]
-    J --> K[Human review policy]
+ A[Synthetic documents] --> B[Document loader]
+ B --> C[Chunking]
+ C --> D[Local TF-IDF index]
+ E[User question] --> F[Retrieval]
+ D --> F
+ F --> G[Grounded answer builder]
+ G --> H[Citations]
+ G --> I[Evaluation]
+ G --> J[Guardrails]
+ J --> K[Human review policy]
 ```
 
 ---
