@@ -14,7 +14,9 @@ RAG | Local Retrieval | Evaluation | Privacy Controls | Prompt-Injection Tests |
 ![RAG](https://img.shields.io/badge/RAG-Document%20Retrieval-6F42C1?style=flat)
 ![Privacy](https://img.shields.io/badge/Privacy-PII%20Controls-2EA043?style=flat)
 ![Evaluation](https://img.shields.io/badge/Evaluation-Retrieval%20%2F%20Grounding-1F6FEB?style=flat)
-![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+[![CI](https://github.com/KinSushi/secure-wealth-rag-assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/KinSushi/secure-wealth-rag-assistant/actions)
+![Tests](https://img.shields.io/badge/tests-pytest-0A9396)
+![Lint](https://img.shields.io/badge/lint-ruff-orange)
 ![Public Safety](https://img.shields.io/badge/Documents-Synthetic%20Only-24292F?style=flat)
 
 </div>
@@ -32,6 +34,22 @@ synthetic docs -> chunking -> local index -> retrieval -> grounded answer -> eva
 The project is designed for regulated and data-intensive environments: private banking, insurance, health data, pharma/medtech, consulting, research and big-tech AI/data platforms.
 
 No real client, banking, insurance, health, employer or private documents belong here.
+
+---
+
+## What an evaluation run produces (synthetic documents)
+
+The assistant answers questions over **synthetic** wealth documents and is measured, not assumed, for quality and safety:
+
+| Dimension | Output |
+|---|---|
+| Retrieval quality | top-k relevance and grounding checks in `reports/` |
+| Answer evaluation | reference-based scoring on a synthetic Q/A set |
+| Privacy controls | PII handling and redaction checks |
+| Prompt-injection tests | adversarial prompts the assistant must refuse |
+| Validation | `pytest` + `ruff` results in `docs/` |
+
+Reproduce locally with the Quickstart commands. All documents are **synthetic**; no real client, banking or personal data is used.
 
 ---
 
